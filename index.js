@@ -41,7 +41,7 @@ const resolvers = {
     Query: {
         states(parent, args, context, info) {
             return states.find(state => state.id === args.id);
-        }
+        },
     }
 
 };
